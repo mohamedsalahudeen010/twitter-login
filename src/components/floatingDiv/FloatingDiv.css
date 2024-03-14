@@ -30,17 +30,7 @@
 @media only screen and (max-width:1200px){
  
     .floating-div{
-        background-color: rgb(26, 25, 25);
-        width: 8rem;
-        height: 3.5rem;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        border-radius: 1rem;
-        position: absolute;
-       
-        box-shadow: 1rem 1rem 1rem black;
-        color: antiquewhite;
+      
         transform: scale(0.9);
     }
 }
