@@ -46,13 +46,7 @@ min-height: 50vh;
   div{
       padding: 5px;
   }
-  h1{
-      
-      color: brown;
-      margin-top: -1rem;
-     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  
+ 
   .input-login{
       width:100% ;
       font-size:15px;
@@ -267,8 +261,7 @@ min-height: 50vh;
     
     .title-login{
       padding: 0.3rem 1rem ;
-      width: 40%;
-    margin-left: 30%;
+      
    
     }
     .signIn-title{
@@ -326,15 +319,14 @@ min-height: 50vh;
     
     .title-login{
       padding: 0.3rem 1rem ;
-      width: 60%;
-     margin-left: 20%;
-     font-size: 1rem;
+      
    
     }
       .form-signIn {
         width:90%;
         height: 80%;
         margin-top: 5rem;
+        margin-left: -1%;
       }
      
         .forget-password-login{
