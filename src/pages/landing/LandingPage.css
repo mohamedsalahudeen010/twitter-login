@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-align: center;
+  color: black;  
+}
+.landingPage{
+    margin-top: 2rem;
+    text-align: center;
+    min-height: 100vh;
+}
+.land-main{
+    width: 70%;
+    height: 80vh;
+    margin-top: 1rem ;
+    margin-left: 15%;
+}
+.land-left>img{
+width: 100%;
+height: 80vh;
+}
+.land-right{
+
+}
+.land-title{
+    color: black;
+    margin-top: 0.8rem;
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-align: left;
+}
+.footer{
+    margin-top: 4rem;
+}
+.footer>*{
+  
+    text-align: left;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+   
+}

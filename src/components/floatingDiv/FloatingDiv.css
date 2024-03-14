@@ -1,0 +1,46 @@
+.floating-div{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1rem;
+    color: antiquewhite;
+    border: 0.1rem solid black;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.floating-img{
+    flex: 1;
+}
+.floating-txt{
+    flex: 3;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.floating-img>img{
+    width: 100%;
+    height: 100%;
+    transform: scale(0.50);
+}
+
+@media only screen and (max-width:1200px){
+ 
+    .floating-div{
+        background-color: rgb(26, 25, 25);
+        width: 8rem;
+        height: 3.5rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 1rem;
+        position: absolute;
+       
+        box-shadow: 1rem 1rem 1rem black;
+        color: antiquewhite;
+        transform: scale(0.9);
+    }
+}
