@@ -29,6 +29,15 @@ height: 80vh;
     font-weight: bolder;
     font-family: sans-serif;
     text-align: left;
+    font-size: 2rem;
+}
+.land-title2{
+    color: black;
+    margin-top: 0.8rem;
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 1.5rem;
 }
 .footer{
     margin-top: 4rem;
@@ -39,4 +48,107 @@ height: 80vh;
     font-size: 0.8rem;
     font-family: sans-serif;
    
+}
+
+@media screen and (max-width:1200px){
+    .land-title{
+        margin-top: 0.8rem;
+        font-size: 2rem;
+    }
+    .land-title2{
+        margin-top: 0.8rem;
+        font-size: 1.5rem;
+    }
+    .footer{
+        margin-top: 2rem;
+    }
+    .footer>*{
+      
+        text-align: left;
+        font-size: 0.7rem;
+        font-family: sans-serif;
+       
+    }
+    .land-main{
+        width: 90%;
+        height: 80vh;
+        margin-top: 1rem ;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .land-title{
+        margin-top: 0.8rem;
+        font-size: 1.5rem;
+    }
+    .land-title2{
+        margin-top: 0.8rem;
+        font-size: 1.2rem;
+    }
+    .footer{
+        margin-top: 2rem;
+    }
+    .footer>*{
+      
+        text-align: left;
+        font-size: 0.7rem;
+        font-family: sans-serif;
+       
+    }
+    
+}
+
+
+@media screen and (max-width:900px){
+    .land-title{
+        margin-top: 0.8rem;
+        font-size: 1.5rem;
+    }
+    .land-title2{
+        margin-top: 0.8rem;
+        font-size: 1.2rem;
+    }
+    .footer{
+        margin-top: 2rem;
+    }
+    .footer>*{
+      
+        text-align: left;
+        font-size: 0.7rem;
+        font-family: sans-serif;
+       
+    }
+    .land-main{
+        width: 95%;
+        height: 80vh;
+        margin-top: 1rem ;
+        margin-left: 2.5%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .land-title{
+        margin-top: 0.8rem;
+        font-size: 1.3rem;
+    }
+    .land-title2{
+        margin-top: 0.8rem;
+        font-size: 1rem;
+    }
+    .footer{
+        margin-top: 4rem;
+    }
+    .footer>*{
+
+        font-size: 0.6rem;
+
+       
+    }
+    .land-main{
+        width: 95%;
+        height: 80vh;
+        margin-top: 1rem ;
+        margin-left: 2.5%;
+    }
 }
