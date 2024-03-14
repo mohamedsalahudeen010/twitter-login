@@ -48,13 +48,14 @@ const[month,setMonth]=React.useState("");
   };
   return (
     <div>
-      <FormControl  variant="standard">
+      <FormControl  variant="standard" sx={{ minWidth: "30%" }}>
         <InputLabel sx={{ m: 1 }} htmlFor="demo-customized-textbox">Date</InputLabel>
         <BootstrapInput id="demo-customized-textbox"
         value={date} 
+        sx={{ minWidth: "30%" }}
         onChange={(e)=>setDate(e.target.value)}/>
       </FormControl>
-      <FormControl sx={{ minWidth: 200 }} variant="standard">
+      <FormControl sx={{ minWidth: "20%" }} variant="standard">
         <InputLabel sx={{ m: 1 }}  id="demo-customized-select-label">Month</InputLabel>
         <Select
           labelId="demo-simple-select-helper-label"
@@ -80,7 +81,7 @@ const[month,setMonth]=React.useState("");
           <MenuItem value={"December"}>December</MenuItem>
         </Select>
       </FormControl>
-      <FormControl sx={{ minWidth: 150 }} variant="standard">
+      <FormControl sx={{ minWidth: "20%" }} variant="standard">
         <InputLabel sx={{ m: 1 }}  htmlFor="demo-customized-select-native">Year</InputLabel>
         <NativeSelect
           id="demo-customized-select-native"
